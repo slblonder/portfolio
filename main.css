@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans",
+  sans-serif; 
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.logo > img {
+  position: relative; 
+  align-content: center;
+  border-radius: 55%;
+  border-style: dotted;
+}
+
+.logo {
+  margin-bottom: 1%;
+  align-content: center;
+}
+.hamburger {
+  display: none;
+}
+nav,
+footer {
+  padding: 1% 0;
+  background-color: #bbb;
+  margin-top: 1%
+}
+
+nav {
+  position: realtive;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  margin-bottom: 5%;
+}
+
+h1 {
+  margin: 0; 
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  padding: 5% 0;
+  align-content: center;
+}
+
+section {
+  min-height: 200px;
+  padding: 2% 0;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1); 
+  text-align: center;
+  overflow: auto;
+  margin-bottom: 5%;
+}
+
+div li {
+display: inline;
+margin: 1%;
+}
+
+#phytoquiz {
+  border-radius: 15%;
+  max-height: 300px;
+  padding-bottom: 1%;
+}
+p {
+  margin: 0 15%;
+  padding-bottom: 2%;
+}
+span {
+  display: none;
+}
+
+ul {
+list-style: none;} 
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 700px) {
+  h1 {margin-top: 1%;}
+.logo img {float: none;} 
+footer {display: none;}
+}
+
+
+@media screen and (max-width: 420px) { 
+  header {
+  display: block;
+  align-content: center;
+  width: 100%;
+  text-align: center;
+  padding: 5%;
+  }
+nav ul {
+  display: none; }
+
+  nav {
+    height: 50px;
+    align-content: center;
+  }
+
+h1 {margin-top: 1%;}
+
+.logo img {float: none;} 
+footer {display: none;}
+img {width: 80%;}
+
+.hamburger {
+  display: flex;
+  float: right;
+  font-size: 150%;
+  align-content: center;
+  padding: 0%;
+}
+}
